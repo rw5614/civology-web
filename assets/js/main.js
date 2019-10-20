@@ -1,7 +1,7 @@
 /* ===================================================================
     
     Author          : Valid Theme
-    Template Name   : Boxass - Startup Landing Page Templatee
+    Template Name   : Civologye
     Version         : 1.0
     
 * ================================================================= */
