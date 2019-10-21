@@ -1704,17 +1704,20 @@ body,
   position: absolute;
   right: -25px;
   top: 5px;
+  content: "";
+  font-size: 30px;
+}
+
+.about-area .fun-fact.percent .timer::after {
+  position: absolute;
+  right: -25px;
+  top: 5px;
   content: "%";
   font-size: 30px;
 }
 
-.about-area .fun-fact.clients .timer::after {
+.about-area .fun-fact.plus .timer::after {
   content: "+";
-}
-
-.about-area .fun-fact.invest .timer::after {
-  content: "M";
-  right: -27px;
 }
 
 .about-area .fun-fact .medium {
