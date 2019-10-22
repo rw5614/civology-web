@@ -419,7 +419,7 @@
                     
                     <!-- Contact Form -->
                     <div class="col-md-7 col-md-offset-1 contact-form">
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                        <form action="http://formspree.io/xlerdkzo" method="POST"class="contact-form">
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="form-group">
@@ -431,7 +431,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                        <input class="form-control" id="email" name="_replyto" placeholder="Email*" type="email">
                                         <span class="alert-error"></span>
                                     </div>
                                 </div>
@@ -445,13 +445,13 @@
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="form-group comments">
-                                        <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Your Project*"></textarea>
+                                        <textarea class="form-control" id="comments" name="body" placeholder="Tell Us About Your Project*"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="row">
-                                    <button type="submit" name="submit" id="submit">
+                                    <button type="submit" value="Send" name="submit" id="submit">
                                         Sign Up <i class="fa fa-paper-plane"></i>
                                     </button>
                                 </div>
@@ -461,6 +461,11 @@
                                 <div id="message" class="alert-msg"></div>
                             </div>
                         </form>
+                        <!-- <form action="http://formspree.io/you@email.com">
+                            <input type="email" name="_replyto">
+                            <textarea   name="body"></textarea>
+                            <input type="submit" value="Send">
+                        </form> -->
                     </div>
                     <!-- End Contact Form -->
                 </div>
@@ -488,9 +493,7 @@
                         <div class="f-item link">
                             <h4>Quick Links</h4>
                             <ul>
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
+                                
                                 <li>
                                     <a href="#about">About</a>
                                 </li>
@@ -499,6 +502,12 @@
                                 </li>
                                 <li>
                                     <a href="#contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="companies.html">For Companies</a>
+                                </li>
+                                <li>
+                                    <a href="#home">For Campaigns</a>
                                 </li>
                             </ul>
                         </div>
