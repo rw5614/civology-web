@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Civology - People Data Insights">
+
+    <!-- ========== Page Title ========== -->
+    <title>Civology</title>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149442367-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-149442367-1');
+    </script>
+
+    <!-- Start of Async Drift Code -->
+	<script>
+        "use strict";
+        !function() {
+          var t = window.driftt = window.drift = window.driftt || [];
+          if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+            t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            };
+          }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('8wpk79cvvfp6');
+        </script>
+    <!-- End of Async Drift Code -->
+    
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/all.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5/html5shiv.min.js"></script>
+      <script src="assets/js/html5/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ========== Google Fonts ========== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="se-pre-con"></div>
+    <!-- Preloader Ends -->
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar active-border navbar-default navbar-fixed navbar-transparent white bootsnav">
+
+            <div class="container">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav button-light">
+                    <ul>
+                        <li>
+                            <a href="http://demo.civology.com/login">login</a>
+                        </li>
+                    </ul>
+                </div>
+                 <!-- End Atribute Navigation -->
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" class="logo logo-display" alt="Logo" width="125px" style="padding-top:10px;">
+                        <img src="assets/img/logo-blue.png" class="logo logo-scrolled" alt="Logo" width="125px" style="padding-top:10px;">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                        <li class="dropdown dropdown-right">
+                            <a href="#home" class="smooth-menu" data-toggle="dropdown" >Home</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#dashboard">Analysis</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Banner 
+    ============================================= -->
+    <div class="banner-area auto-height content-less shadow text-light text-center theme-hard bg-fixed" style="background-image: url(assets/img/header.jpeg);">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h1>Industry Analysis</h1>
+                        <h2>Impact of COVID-19 on Residential Permitting</h2>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wavesshape highlight shape">
+            <img src="assets/img/waves-shape-2.svg" alt="Shape">
+        </div>
+    </div>
+    <!-- End Banner -->
+
+     <!-- Start Team Area
+    ============================================= -->
+    <div id="dashboard" class="team-area default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+                    <div class="site-heading text-center">
+                        <h2>Solar Permitting Dashboard</h2>
+                        <p>
+                            We analyzed residential solar permitting activity from 10 cities across the US. Data sourced from government databases in New York City, Boston, DC, Los Angeles, San Francisco, Raleigh, San Diego, Austin, Scottsdale, and Albuquerque. More to come — <a href="mailto:hello@civology.com">contact us</a> if you want your city added!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center ">
+                <div class="col-lg-8 col-md-8 col-lg-offset-1 col-md-offset-1">
+                    <div class='tableauPlaceholder' id='viz1587595720826' style='position:relative;'> 
+                        <noscript>
+                            <a href='https:&#47;&#47;permits.civology.com'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Combo_Meme&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
+                        </noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='Combo_Meme&#47;Dashboard1' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Combo_Meme&#47;Dashboard1&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1587595720826');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        if (divElement.offsetWidth > 800) {
+                            vizElement.style.width = '1000px';
+                            vizElement.style.height = '827px';
+                        } else if (divElement.offsetWidth > 500) {
+                            vizElement.style.width = '1000px';
+                            vizElement.style.height = '827px';
+                        } else {
+                            vizElement.style.width = '100%';
+                            vizElement.style.height = '1777px';
+                        }
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Team Area -->
+
+    <!-- Start Services Area 
+    ============================================= -->
+    <!-- <div id="services" class="services-area default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+                    <div class="site-heading text-center">
+                        <h2>What we offer</h2>
+                        <p>
+                            We help you better navigate the current business, economic, and policy barriers to climate change action.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="services-items text-center">
+                    
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="info">
+                                <i class="fas fa-globe-americas"></i>
+                                <p>
+                                    Efficient research to identify trends and insights.
+                                </p>
+                                <h4>Geographic Trends</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="info">
+                                <i class="fas fa-search-dollar"></i>
+                                <p>
+                                    Full-featured research suite to understand your market dynamics.
+                                </p>
+                                <h4>Market Research</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <div class="info">
+                                <i class="fa fa-toolbox"></i>
+                                <p>
+                                   Action oriented tools to help drive renewables adoption online.
+                                </p>
+                                <h4>Tech Tools</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Services Area -->
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer class="default-padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="f-items">
+                    <div class="col-md-4 col-sm-6 equal-height item">
+                        <div class="f-item">
+                            <img src="assets/img/logo.png" alt="Logo">
+                            <p>
+                                Tech x Climate Action
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 equal-height item">
+                        <div class="f-item link">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li>
+                                    <a href="index.html#about">About</a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#services">Services</a>
+                                </li> -->
+                                <li>
+                                    <a href="index.html#contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#home">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 equal-height item">
+                        <div class="f-item twitter-widget">
+                            <h4>Contact Info</h4>
+                            <p>
+                                1755 Van Ness Ave #306, San Francisco CA 94109
+                            </p>
+                            <div class="address">
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fas fa-envelope"></i> 
+                                        </div>
+                                        <div class="info">
+                                            <h5>Email:</h5>
+                                            <span><a href="mailto:hello@civology.com">hello@civology.com</a></span>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom bg-theme-small default-padding-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="col-lg-6 col-md-6 col-sm-7">
+                            <p>Civology &copy; 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/equal-height.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.backgroundMove.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
